@@ -1,0 +1,31 @@
+name: Dependency Caching Workflow
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch: # This allows you to run it manually!
+
+jobs:
+  caching-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # This is the caching step the assignment asked for
+      - name: Setup Cache
+        id: my-cache # We give this an ID so the next step can reference it
+        uses: actions/cache@v4
+        with:
+          path: dummy-dependencies # The folder we want to save
+          key: cache-a58abaf # The exact key required by the assignment
+
+      # This step echoes the result and "primes" the cache
+      - name: prime-cache-a58abaf
+        run: |
+          echo "Cache hit result: ${{ steps.my-cache.outputs.cache-hit }}"
+          
+          # We need to actually put something in the folder so it has something to cache!
+          mkdir -p dummy-dependencies
+          echo "This file is going into the backpack!" > dummy-dependencies/data.txt
