@@ -1,0 +1,9 @@
+{
+  "prompt": "Persian miniature painting, 15th-century Timurid style, depicting a narrative scene of a walled courtyard school. Inside the high, intricately tiled walls, scholars sit on patterned rugs, studying blank scrolls. However, at the top right, a figure standing outside the wall in the wilderness is secretly passing a fully written scroll through a narrow crack in the brickwork directly to a student hiding near the edge. Rendered with strict Persian miniature grammar: flat stacked perspective with a high horizon line, absolutely no photographic shading, no cast shadows, and no 3D depth. Painted in opaque, saturated jewel tones including lapis lazuli, vermillion, and gold. Extremely fine, delicate line work with dense geometric patterns on the architecture and clothing. No text, no Arabic or Persian calligraphy, no labels, no diagrams, no floating annotations, no anachronistic technology, no modern clothing. The scene must strictly adhere to the historical medium of opaque watercolor on paper.",
+  "model": "Gemini 3 pro Image",
+  "concept": "data leakage",
+  "tradition_name": "Persian miniature painting",
+  "tradition_period": "15th Century",
+  "tradition_approach": "Targeted the flat stacked perspective, high horizon line, absence of cast shadows, fine line work, and saturated jewel-tone palette typical of Timurid-era manuscript illustrations.",
+  "publish_email": true
+}
