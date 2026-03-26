@@ -2,5 +2,6 @@
   "prompt": "High-angle documentary photograph of an agricultural field on a bright, sunny day. On the left side is a dense, uniform planting of tall green cornstalks. On the right side is a dense, uniform planting of low purple lavender bushes. Separating the two crops is a wide, completely empty dirt path. A surveyor in work clothes is kneeling in the middle of this dirt path. They have stretched a yellow physical measuring tape tightly across the path. The left end of the tape touches exactly one stray cornstalk protruding slightly into the dirt, and the right end touches exactly one stray lavender bush protruding from the other side. The surveyor is hammering a wooden stake into the dirt at the exact midpoint of the measuring tape. Photorealistic, crisp focus, natural lighting. No diagrams, no graphs, no text, no labels, no mathematical notation, no equations, no floating annotations, no non-physical elements, no UI elements, no screen displays, no infographic elements, no glowing lines. Everything in the scene must be a physical object that could exist in the real world.",
   "model": "Gemini 3 Pro Image",
   "concept": "support vector machine",
-  "metaphor": "A surveyor separating two distinct crops by measuring only the distance between the two closest opposing edge plants, maximizing the empty boundary space between them."
+  "metaphor": "A surveyor separating two distinct crops by measuring only the distance between the two closest opposing edge plants, maximizing the empty boundary space between them.",
+  "publish_email": true
 }
