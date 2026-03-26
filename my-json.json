@@ -3,5 +3,6 @@
   "model": "Gemini 3 Pro Image",
   "dataset_name": "Global Internet Connectivity Gap (Online vs Offline Population, 2005-2025)",
   "dataset_url": "https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx",
-  "insight": "Even by 2025, about 2.2 billion people remain offline, highlighting persistent structural barriers like limited infrastructure, affordability challenges, low digital literacy, and restrictive policies."
+  "insight": "Even by 2025, about 2.2 billion people remain offline, highlighting persistent structural barriers like limited infrastructure, affordability challenges, low digital literacy, and restrictive policies.",
+  "publish_email": true
 }
